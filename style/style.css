@@ -1,0 +1,144 @@
+/* Style for MTA Intranet 2*/
+
+body{
+    background-color : lightgray;
+}
+
+h1{
+    color:blue;
+}
+
+#frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+
+.frame {
+    list-style: none;
+    margin-top:0px;
+}
+
+#frame > * {
+    margin-left: 10px;
+}
+
+#frame a:hover {
+    background: #fff no-repeat right top;
+    font-weight:bold;
+}
+
+#frame a {
+    background: #333 no-repeat right top;
+
+    text-decoration:none;
+
+    display:block;
+    font-weight:bold;
+    color: gray;
+}
+
+#main{
+    position:fixed;
+    top:0px;
+    left:210px;
+    right:0px;
+    bottom:0px;
+    overflow:auto;
+}
+
+#titleandnav {
+    /*display: block;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: lightgray;*/
+}
+
+/*#formviewpulloffs{
+    margin-top:10px;
+}*/
+
+#results > #pulloffresults {
+    /*table-layout:auto;*/
+    width: 98%;
+    border: solid;
+    border-collapse:collapse;
+    /*margin-top: 160px;*/
+}
+
+#pulloffspreview > #pulloffresults {
+    /*table-layout:auto;*/
+    width: 98%;
+    border: solid;
+    border-collapse: collapse;
+    /*margin-top: 160px;*/
+}
+
+#pulloffresults tr:nth-child(even)
+{
+    background-color:darkgrey;
+}
+
+#pulloffresults caption {
+    /*position:fixed;*/
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#pulloffresults th {
+    /*position:fixed;*/
+    border: 1px solid;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#pulloffresults td{
+    border:1px solid;
+}
+
+#pulloffresults .pulloff {
+    background-color: rgba(175, 50, 25, 0.4);
+}
+
+#pulloffresults tr:not([class=tableheaders]) {
+    /*background-color: coral;*/
+    
+}
+
+#results > #pulloffresults tr:not([class=tableheaders]):hover {
+    background-color: yellow;
+}
+
+#routeinfo {
+    width: 350px;
+}
+/*#fmresultstable tr td{
+    border: 1px solid;
+}*/
+/*#fmresultstable td {
+    border: 1px solid;
+    background-color : limegreen;
+}*/
+#fmresultstable tr {
+    outline: thin solid;
+}
+
+#addpullofftable {
+    /*background-color: peachpuff;*/
+    border:thin dashed;
+}
+
+#addpullofftable td {
+    border: thin solid;
+}
+
+/*#fmresultstable {
+    border: 1px solid;
+}*/
